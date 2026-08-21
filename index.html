@@ -72,20 +72,28 @@
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="section">
-      <div class="container">
-        <h2 class="section__title">Contact</h2>
-        <p>Add a form or your contact details here.</p>
-      </div>
-    </section>
-  </main>
+    
 
   <!-- Site footer -->
   <footer class="site-footer">
     <div class="container">
       <p>&copy; <span id="year"></span> Intern Demo. All rights reserved.</p>
     </div>
-  </footer>
+  </footer><form class="contact-form">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+    <button type="submit">Send Message</button>
+</form>
 
   <script src="js/main.js"></script>
 </body>
