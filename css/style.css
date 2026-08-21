@@ -103,21 +103,22 @@ body {
 .hero {
   text-align: center;
   padding-block: 6rem;
-  background: linear-gradient(180deg, var(--color-bg-muted), var(--color-bg));
+  background: linear-gradient(180deg, #000, #0a0a0a);
 }
 
 .hero__title {
   font-size: clamp(2rem, 5vw, 3.25rem);
-  font-weight: 800;
+  font-weight: 900;
   line-height: 1.1;
   margin-bottom: 1rem;
+  color: var(--color-primary-dark);
 }
 
 .hero__subtitle {
   max-width: 640px;
   margin: 0 auto 2rem;
   font-size: 1.125rem;
-  color: var(--color-text-muted);
+  color: whitesmoke;
 }
 
 /* ---------- Sections ---------- */
