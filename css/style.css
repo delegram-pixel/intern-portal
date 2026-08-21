@@ -161,6 +161,7 @@ body {
 
 /* ---------- Footer ---------- */
 .site-footer {
+  background-color: #4338ca;
   border-top: 1px solid var(--color-border);
   padding-block: 2rem;
   text-align: center;
