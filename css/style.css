@@ -126,7 +126,7 @@ body {
 }
 
 .section--muted {
-  background-color: var(--color-bg-muted);
+  background-color: blue;
 }
 
 .section__title {
